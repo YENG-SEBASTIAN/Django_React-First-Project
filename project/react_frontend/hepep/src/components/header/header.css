@@ -15,16 +15,13 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    color: var(--primary-color);
+    color: var(--color-white);
     transition: .5s;
 }
 .icons:hover{
     cursor: pointer;
-    background: var(--primary-color);
     color: var(--red-color);
     border: 1px solid var(--color-white);
-    height: 1.8rem;
-    width: 1.8rem;
 }
 
 /* ==========================MENUS========================= */
@@ -74,6 +71,8 @@ nav button.toggle{
     border: none;
     transition: .5s;
 }
+
+/* =================MEDIA QUERIES FOR SMALL DEVICES===================== */
 @media screen and (max-width: 700px) {
     nav .start{
         clip-path: none;
@@ -107,4 +106,14 @@ nav button.toggle{
         color: #fff;
 
     }
+}
+/* =================MEDIA QUERIES FOR SMALL DEVICES===================== */
+@media screen and (max-width: 768px) {
+    .social .icons{
+        display: none;
+    }
+}
+/* =================MEDIA QUERIES FOR MEDIUM DEVICES===================== */
+@media screen and (max-width: 1024px) {
+    
 }

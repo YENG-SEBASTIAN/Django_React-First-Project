@@ -24,12 +24,6 @@ const Header = () => {
       </div>
 
 
-        {/* <ul>
-        <li> <Link to='main/'>Home</Link> </li>
-        <li><Link to='main2/'>Main</Link></li>
-        <li><Link to='service/'>Service</Link></li>
-        <li><Link to='login/'>Login</Link></li>
-        </ul> */}
       </div>
     </section>
 

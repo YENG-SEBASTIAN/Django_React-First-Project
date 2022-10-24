@@ -39,3 +39,20 @@ body{
 .danger{
     color: red;
 }
+.back{
+    background-image: url('../src/assets/b1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    padding-top: 15%;
+    padding-right: 50px;
+    text-align: center;
+}
+.margin{
+    padding-top: 30%;
+}
