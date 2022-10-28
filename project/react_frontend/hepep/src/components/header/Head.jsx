@@ -22,7 +22,6 @@ export const Head = () => {
   return (
     <>
         <Header />
-        
         <div className="main-container">
           <nav>
             <ul id='navbar' className={click ? 'mobile-nav' : 'flexSB'} onClick={()=> setClick(false)}>
